@@ -31,7 +31,6 @@ $images = $data;
 
 		<!-- Start Page -->
 		<div class="stages" id="start">
-			<a class="gallery btn" href="#"><i class="fa fa-th"></i> <span data-l10n="gallery"></span></a>
 			<div class="blurred">
 			</div>
 			<div class="inner">
@@ -133,6 +132,6 @@ $images = $data;
 	<script type="text/javascript" src="/resources/js/photoswipe-ui-default.min.js"></script>
 	<script type="text/javascript" src="/resources/js/photoinit.js"></script>
 	<script type="text/javascript" src="/resources/js/core.js"></script>
-	<script type="text/javascript" src="/lang/en.js"></script>
+	<script type="text/javascript" src="/lang/fr.js"></script>
 </body>
 </html>

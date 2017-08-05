@@ -198,17 +198,16 @@ h3 {
   width: 610px;
   height: 70px;
   left: 50%;
-  margin-left: -300px; }
-  .resultInner .btn {
-    display: block;
-    position: absolute; }
-    .resultInner .btn.gallery {
-      left: 0;
-      top: 0; }
+}
+
+.resultInner .btn {
+  display: block;
+  position: absolute;
+}
 
 .resultInner .btn.newpic {
-  right: 0;
-  top: 0; }
+  text-align: center;
+}
 
 .spinner {
   font-size: 80px;
