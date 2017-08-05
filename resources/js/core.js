@@ -124,17 +124,17 @@ var photoBooth = (function(){
 		// Add Image
 		$('<img src="/images/'+ result.img +'" class="original">').load(function() {
 			$('#result').css({'background-image' : 'url(/images/'+ result.img +')'});
-			startPage.fadeOut(400, function(){
-				resultPage.fadeIn(400, function(){
+			startPage.fadeOut(100, function(){
+				resultPage.fadeIn(100, function(){
 					setTimeout(function () {
 						processing = false;
 					    loader.slideUp('fast');
-					}, 400);
+					}, 100);
 					setTimeout(function () {
 						$('.resultInner').stop().animate({
 							'bottom': '50px'
-						}, 400).removeClass('hidden');
-					}, 400);
+						}, 100).removeClass('hidden');
+					}, 100);
 					clearTimeout(timeOut);
 					public.resetTimeOut();
 				});

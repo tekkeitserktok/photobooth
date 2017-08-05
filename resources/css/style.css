@@ -194,10 +194,6 @@ h3 {
 
 .resultInner {
   position: absolute;
-  bottom: 50px;
-  width: 610px;
-  height: 70px;
-  left: 50%;
 }
 
 .resultInner .btn {
